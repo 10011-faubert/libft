@@ -6,7 +6,7 @@
 /*   By: faubert <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/10 15:06:16 by faubert           #+#    #+#             */
-/*   Updated: 2020/02/04 10:50:53 by faubert          ###   ########.fr       */
+/*   Updated: 2020/02/18 15:15:49 by faubert          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,5 @@ void				*ft_memcpy(void *dest, const void *src, size_t n)
 		dest_tmp[i] = src_tmp[i];
 		i++;
 	}
-	dest = dest_tmp;
 	return (dest);
 }
